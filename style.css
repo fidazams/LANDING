@@ -48,7 +48,7 @@
     filter: grayscale(100%);
     width: 200px;
     height: 200px;
-    border:#3e3e3e 3px dashed;
+    border:#15170f 3px dashed;
     border-radius: 50%;
     scale: 1.1;
   }
@@ -62,7 +62,7 @@
     text-decoration: none;
     color: white;
     padding: 10px 20px;
-    background: #3e3e3e2f;
+    background: #15170f2f;
     border-radius: 5px;
     text-align: center;
     transition: background 0.3s;
@@ -70,11 +70,12 @@
   
   /* Typing effect */
   .quote {
-    color: #3e3e3e;
+    color: #15170f;
     width: 60%;
     font-size: 35px;
     font-weight: 600;
     word-wrap: break-word;
+    margin-bottom: 50px;
   }
   
   /* Keyframes for mobile device */
@@ -93,6 +94,7 @@
       width: 100%;
       font-size: 28px;
       text-align: center;
+      margin-bottom: 0px;
     }
   }
 
